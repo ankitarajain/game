@@ -1,0 +1,21 @@
+@import '../../variables.scss';  
+
+.input-options{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    .input-option{
+        display: inline;
+
+        &.disabled{
+            pointer-events: none;
+        }
+    }
+
+    .float-button{
+        margin: 15px;
+        cursor: pointer;
+    }
+}
